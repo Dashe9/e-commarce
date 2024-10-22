@@ -1,0 +1,238 @@
+style.css:
+`
+/* primary color: 10%
+secondary-color: 30
+###-color: 60 */
+
+/* https://colorhunt.co/ */
+
+/* primay-color: #ec7f13  */
+
+/* section vise chlna  */
+/* Free pics: 
+https://unsplash.com/
+https://www.pexels.com/
+https://pixabay.com/
+*/
+
+
+/* reset CSS  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* border: 10px solid black; */
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    /* font-weight: 100; */
+    font-style: normal;
+}
+
+
+/* select by tag  */
+main {
+    max-width: 1024px;
+    /* border: 2px solid red; */
+    width: 100%;
+}
+
+/* navbar styling  */
+nav {
+    display: flex;
+    /* list-style: none; */
+    justify-content: space-between;
+    align-items: center;
+    /* border-bottom: 1px solid gray; */
+    padding: 1rem 0;
+    transition:  10s;
+}
+
+nav h1 {
+    color: #ec7f13;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: #ec7f13;
+    font-weight: 500;
+    transition:  2s;
+}
+.banner {
+    background-image: url(https://i.pinimg.com/736x/92/40/ea/9240eae5f594794b7a24aad1c8917cd7.jpg);
+    height: 500px;
+    width: 1000px;
+    border-radius: 50px;
+    background-position: right bottom, left top;
+  background-repeat:  repeat;
+  padding: 15px;
+}
+.banner .offer-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.banner .sub-text {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.banner .extra-offer {
+    background-color: gold;
+    padding: 5px 10px;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 5px;
+}
+.product-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.product {
+    background-color: #d2f5e9;
+    border-radius: 8px;
+    width: 200px;
+    margin:  25px;
+    padding: 30px;
+    height: 200px;
+    text-align: center;
+}
+
+.product img {
+    width: 150px;
+    height: 100px;
+    height: auto;
+}
+
+.product-title {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.product-info {
+    font-size: 14px;
+    color: #555;
+}
+
+.product-offer {
+    background-color: gold;
+    font-size: 12px;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.container {
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.all-products {
+    background-color: transparent;
+    color: white;
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.top-categories {
+    margin-top: 50px;
+}
+
+.top-categories h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.top-categories p {
+    font-size: 1em;
+    margin-bottom: 30px;
+    /* color: #cfb2b2;s */
+}
+
+.categories-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.category-circle {
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(12, 5, 5);
+    border-radius: 50%;
+    text-align: center;
+    background-color: transparent;
+    padding: 4rem;
+    justify-content: center;
+    font-size: large;
+    color: white;
+    font-weight: bold;
+    background-image: url(https://www.bata.com.pk/cdn/shop/articles/HEADER_Sneaker_Styles_Explained.jpg?v=1707999891);
+}
+.sponsors {
+    margin: 20px 0;
+}
+.sponsors-text {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.circle-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #333;
+}
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+footer {
+    margin-top: 50px;
+    padding: 20px 0;
+}
+
+footer hr {
+    border: none;
+    border-top: 1px solid rgb(28, 23, 23);
+    margin: 20px 0;
+}
+
+footer p {
+    font-size: 1em;
+    color: #0b0909;
+}
